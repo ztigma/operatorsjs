@@ -1,2 +1,2 @@
 # operatorsjs
-Simple Objecta oriented operations
+Simple Object oriented operations
