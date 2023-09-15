@@ -1,0 +1,32 @@
+<head>
+    <script type="text/javascript" src="Operators.js"></script>
+</head>
+<body>
+    <div id="suma"></div>
+    <div id="resta"></div>
+    <div id="multiplo"></div>
+    <div id="division"></div>
+    <div id="exponente"></div>
+    <div id="raiz"></div>
+
+    <script>
+        suma.innerHTML = 
+            `${{x:1, y:2, z:3}} + ${{x:4, y:5, z:6}}`.op();
+        ;
+        resta.innerHTML = 
+            `${{x:1, y:2, z:3}} - ${{x:4, y:5, z:6}}`.op();
+        ;
+        multiplo.innerHTML = 
+            `${{x:1, y:2, z:3}} * ${{x:4, y:5, z:6}}`.op();
+        ;
+        division.innerHTML = 
+            `${{x:1, y:2, z:3}} / ${{x:4, y:5, z:6}}`.op();
+        ;
+        exponente.innerHTML = 
+            `${{x:1, y:2, z:3}} ** ${{x:2, y:3, z:4}}`.op();
+        ;
+        raiz.innerHTML = 
+            ` // ${{x:4, y:9, z:16}}`.op();
+        ;
+    </script>
+</body>
